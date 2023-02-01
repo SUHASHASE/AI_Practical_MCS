@@ -55,8 +55,11 @@ List2.pop(4)
 print("List2 after delete element at 4 position : ",List2)
 
 print("List2 after sorting : ",sorted(List2))
+
+
 ```
 Output
+
 Sum of all elements in List2 :  1903
 Nested List is :  ['Happy', [2, 0, 1, 5], ['s', 'k']]
 Length of List1 :  7
@@ -121,7 +124,9 @@ num = int(input("Enter the number: "))
 print("Multiplication Table of", num)
 for i in range(1, 11):
    print(num,"X",i,"=",num * i)
+   
 ```
+
 Output
 Enter the number: 12
 Multiplication Table of 12
@@ -151,6 +156,7 @@ Multiplication Table of 12
 
 
 # Q.3	Write a program to Illustrate Different Set Operations. 	[15 M] 
+
 ```
 A = {0, 2, 4, 6, 8}; 
 B = {1, 2, 3, 4, 5}; 
@@ -168,8 +174,10 @@ print("Difference :", A - B)
   
 #symmetric difference = elements in A not in B & elements in B not in A
 print("Symmetric difference :", A ^ B)
+
 ```
 Output
+
 Set A :  {0, 2, 4, 6, 8}
 Set B :  {1, 2, 3, 4, 5}
 Union : {0, 1, 2, 3, 4, 5, 6, 8}
@@ -187,7 +195,8 @@ Symmetric difference : {0, 1, 3, 5, 6, 8}
 
 
 
-# Q.4  Program to check whether the given no is prime or not.  [10 M] 
+# Q.4  Program to check whether the given no is prime or not.  [10 M]
+
 ```
 number = int(input("Enter any number: "))
 
@@ -200,8 +209,11 @@ if number > 1:
         print(number, "is a prime number")
 else:
     print(number, "is not a prime number")
+    
 ```
+
 Output
+
 Enter any number: 23
 23 is a prime number
 
@@ -240,7 +252,9 @@ while True:
     break
    else:
       print(qna [qs])
-```    
+      
+```   
+
 output
 
 how are you
@@ -254,6 +268,7 @@ I am fine
 
 
 # Q.6 Program to find factorial of the given no  * With Recursive Function [10 M]
+
 ```
 def factorial(num):
     
@@ -284,7 +299,9 @@ else:
    for i in range(1,num + 1):    
        factorial = factorial*i    
    print("The factorial of",num,"is",factorial)
+   
 ```
+
 Output
 Enter a Number: 5
 Factorial of 5 is:  120
@@ -317,9 +334,11 @@ def bfs(graph,initial):
       return visited
 print("breath first traversal string")
 print(bfs(graph,'a'))
+
 ```   
    
 output 
+
 breath first traversal string
 ['a', 'b', 'c', 'd', 'e', 'f', 'g']  
      
@@ -332,6 +351,7 @@ breath first traversal string
 
 
 # Q.8 Write a program to implement Depth First Search Traversal. [15M] 
+
 ```
 graph = { 
 '5':['3','7'], 
@@ -356,6 +376,7 @@ dfs(visited, graph, '5')
 ```
 output
 
+
 Following is the Depth-First Search
 5
 3
@@ -371,6 +392,7 @@ Following is the Depth-First Search
 
 
 # Q.9 Write a program to implement Water Jug Problem.         [15 M] 
+
 ```
 x = 0 
 y = 0 
@@ -406,6 +428,7 @@ while x != 2:
   print (x, y)
   
 ```  
+
 output
 
 Initial state = (0,0)
