@@ -351,7 +351,7 @@ Enter rule:1
 4 0
 '''
 
-
+# Q.10 Write a program to implement Regression algorithm. 	 [15 M] 
 
 # Online Python compiler (interpreter) to run Python online.
 # Write Python 3 code in this online editor and run it.
